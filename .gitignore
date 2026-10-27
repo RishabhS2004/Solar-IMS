@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Backup and temporary editor files
+*.bak
+*.backup*
+
+# Raw PVDAQ sensor datasets (~83.6 MB - used only by prepare_data.py)
+9068_environment_data_20240101_20250430.csv
+9068_ac_power_data_20240101_20250430.csv
+9068_irradiance_data_20240101_20250430.csv
+
+# Temporary operating-system files
+.DS_Store
+Thumbs.db
+
+# NOTE: processed_output.csv is intentionally tracked as app.py requires it.

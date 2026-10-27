@@ -1,0 +1,20 @@
+{
+  "mae": 103.58,
+  "rmse": 240.47,
+  "r2": 0.9641,
+  "n_train": 108627,
+  "n_test": 27157,
+  "n_total": 135784,
+  "feature_importances": {
+    "irradiance": 0.7736681699752808,
+    "ambient_temp": 0.01158942375332117,
+    "module_temp": 0.1733841896057129,
+    "temp_diff": 0.041358303278684616
+  },
+  "features": [
+    "irradiance",
+    "ambient_temp",
+    "module_temp",
+    "temp_diff"
+  ]
+}
